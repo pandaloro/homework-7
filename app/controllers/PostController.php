@@ -10,7 +10,7 @@ class PostController extends Controller
 public function posts()
     {
     $userModel = new User();
-    $template = $this->twig->load('posts/posts.twig');
+    $template = $this->twig->load('posts.twig');
     $usersData = [
         'users' => $userModel->getAllUsers(),
     ];
