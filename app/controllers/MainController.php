@@ -25,6 +25,4 @@ class MainController extends Controller
         $template = $this->twig->load('404.twig');
         echo $template->render();
     }    
-    }
-
 }
